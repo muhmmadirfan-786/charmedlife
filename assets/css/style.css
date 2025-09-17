@@ -1,0 +1,93 @@
+/* ===== Fonts (use your local .ttf) ===== */
+@font-face {
+  font-family: 'Brittany';
+  src: url('../fonts/brittany_signature/BrittanySignature.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dream Avenue';
+  src: url('../fonts/dream-avnue.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Amoresa';
+  src: url('../fonts/Amoresa.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TT Hoves';
+  src: url("../fonts/TT Hoves Pro Trial Black.ttf") format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TT Hoves';
+  src: url('../fonts/TT-Medium.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Billion Miracles';
+  src: url('../fonts/Billion-Miracles.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* ===== Theme ===== */
+:root{
+  --ink:#222;
+  --bg:#f6f2ea; /* paper-like, matches your screenshot */
+  --muted:#6c6c6c;
+}
+.bg-paper{ background:var(--bg) !important; padding: 50px 0; }
+body{ color:var(--ink); font-family:'TT Hoves', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
+.lead{ max-width: 50ch; }
+
+/* ===== Headlines ===== */
+.tagline{
+  font-family: 'Brittany', cursive;
+  font-size: clamp(26px, 4vw, 44px);
+  letter-spacing:.02em;
+  margin-top:.5rem;
+}
+.beauty{
+  font-family: 'Dream Avenue', serif;
+  font-size: clamp(32px, 6.8vw, 64px);
+  margin:0;
+  letter-spacing:.02em;
+}
+.peace{
+  font-family: 'Amoresa', serif;
+  font-size: clamp(28px, 5.8vw, 56px);
+  margin:0 0 1rem 0;
+  transform: translateY(-6px);
+}
+
+/* ===== Image ===== */
+.hero-img{
+  border-radius: 14px;
+  box-shadow: 0 18px 40px rgba(0,0,0,.08);
+}
+
+/* ===== Button ===== */
+.btn-dark{
+  padding:.75rem 1rem;
+}
+
+/* ===== Social buttons ===== */
+.icon{
+  width:40px; height:40px;
+  border-radius:50%;
+  display:inline-flex; align-items:center; justify-content:center;
+  font-size:1rem;
+  border-color:#d8d4cc !important;
+  color:#333;
+  background:#fff;
+}
+.icon:hover{ background:#fff; box-shadow:0 6px 16px rgba(0,0,0,.08); }
+
+/* ===== Brand lockup ===== */
+.brand{
+  display:inline-flex; align-items:center; gap:.4rem;
+  font-size: clamp(26px, 5vw, 44px);
+}
+.input-field{
+    padding: 13px 20px;
+}
