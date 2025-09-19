@@ -122,6 +122,10 @@ body{ color:var(--ink); font-family:'TT Hoves', system-ui, -apple-system, Segoe 
       font-size: 13px;
      
     }
+    .input-field, .btn-dark {
+    padding: 7px 17px;
+    font-size: 12px;
+}
    
 }
     
