@@ -133,6 +133,6 @@ body{ color:var(--ink); font-family:'TT Hoves', system-ui, -apple-system, Segoe 
  .beauty, .peace {
         font-size: 32px;
     }
-    .bg-paper{padding: 0;}
+    /* .bg-paper{padding: 0;} */
   }
     
